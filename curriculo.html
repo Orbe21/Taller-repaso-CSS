@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Currículo</title>
+    <link rel="stylesheet" href="estilos/estiloDesktop.css">
+    <link rel="stylesheet" href="estilos/encabezado.css">
+    <link rel="stylesheet" href="estilos/piedepagina.css">
+</head>
+<body>
+
+    <header>
+        <h1>Currículo</h1>
+        <nav>
+            <a href="inicio.html">Inicio</a> |
+            <a href="tema.html">Sitios Turísticos</a> |
+            <a href="curriculo.html">Currículo</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Datos Generales</h2>
+            <form action="inicio.html" method="get">
+                <div class="form-group">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </div>
+                <div class="form-group">
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido" name="apellido" required>
+                </div>
+                <div class="form-group">
+                    <label for="cedula">Cédula:</label>
+                    <input type="text" id="cedula" name="cedula" required>
+                </div>
+                <div class="form-group">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="telefono" name="telefono" required>
+                </div>
+                <div class="form-group">
+                    <label for="fecha">Fecha de Nacimiento:</label>
+                    <input type="date" id="fecha" name="fecha" required>
+                </div>
+                <div class="form-group">
+                    <label for="sexo">Sexo:</label>
+                    <select id="sexo" name="sexo">
+                        <option value="masculino">Masculino</option>
+                        <option value="femenino">Femenino</option>
+                        <option value="otro">Otro</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="direccion">Dirección:</label>
+                    <input type="text" id="direccion" name="direccion" required>
+                </div>
+                <div class="form-group">
+                    <label for="corregimiento">Corregimiento:</label>
+                    <input type="text" id="corregimiento" name="corregimiento" required>
+                </div>
+                <div class="form-group">
+                    <label for="provincia">Provincia:</label>
+                    <input type="text" id="provincia" name="provincia" required>
+                </div>
+                <div class="form-group">
+                    <label for="pais">País:</label>
+                    <input type="text" id="pais" name="pais" required>
+                </div>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Currículo</p>
+    </footer>
+</body>
+</html>
